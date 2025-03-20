@@ -1,1 +1,82 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Example</title>
+  <script src="src/script.js" type="module"></script>
+</head>
+
+
+<body>
+
+  <h1>Display your Spotify Profile Data</h1>
+
+<section id="profile">
+    <h2>Logged in as <span id="displayName"></span></h2>
+    <img id="avatar" width="200" src="#" />
+    <ul>
+      <li>User ID: <span id="id"></span></li>
+      
+      <li>Spotify URI: <a id="uri" href="#"></a></li>
+      <li>Link: <a id="url" href="#"></a></li>
+      
+    </ul>
+</section>
+  
+
+<section id ="recommendation" class="row">
+
+  <div class="col">
+    <div class="mb-3">
+      <label  for="topArtists" class="form-label">Favortie Artists</label>
+      <select id="topArtists" class="form-control"> 
+      </select>
+      <input  id="artistbutton" type="button" value="Find artist recommendations">
+      <ol id="recommendedArtists">
+
+      </ol>
+
+    </div>
+
+  </div>
+  <br>
+  
+
+
+</section>
+
+
+
+
+<section id ="playlists">
+    
+    <!--h4> Spotify URI: <a id ="uri2" href="#"></a></h4-->
+  
+    <h3> Random Playlist <span id="displayName"></span></h3>
+   
+    <a id="link"   >
+      <img id="items" width="100" href="#" src="#" />
+    </a>
+    
+    
+    
+    
+    <section >
+      
+     <br><span id="username" ></span>'s playlists 
+      
+    </section>
+
+    <ol id="allplaylists">
+      <br>
+      
+    </ol>
+
+  
+</section>
+
+</body>
+
+</html>
