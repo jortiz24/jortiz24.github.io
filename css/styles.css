@@ -11732,3 +11732,8 @@ html {
     left: -2vw;
   }
 }
+
+.imageContainer > img:hover {
+  width: 500px;
+  height: 200px;
+}
