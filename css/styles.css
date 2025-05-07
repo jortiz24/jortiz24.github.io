@@ -11733,7 +11733,7 @@ html {
   }
 }
 
-.imageContainer > img:hover {
+.imageContainer : img:hover {
   width: 800px;
   height: 500px;
 }
